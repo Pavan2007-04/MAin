@@ -1,0 +1,39 @@
+.footer {
+  background-color: #6a1b9a; /* Deep purple background */
+  color: #fff; /* White text color */
+  text-align: center; /* Center all text */
+  padding: 20px 10px; /* Spacing for the footer */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-content p {
+  margin: 10px 0; /* Add spacing between paragraphs */
+}
+
+.footer-content a {
+  color: #ffd700; /* Gold color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+<footer class="footer">
+    <div class="footer-content">
+      <link rel="stylesheet" href="./styless.css">
+      <p>&copy; 2025 "Artistic Aura: Where Creativity Finds a Home." All Rights Reserved.</p>
+      <p>
+        Follow us on: 
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+        <a href="https://www.pintrest.com" target="_blank">Pintrest</a> |
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      </p>
+      <p>Designed with love by Artistic Aura Team</p>
+    </div>
+    
+    
+  </footer>

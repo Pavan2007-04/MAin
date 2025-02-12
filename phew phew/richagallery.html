@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to RICHA'S ARTSYY</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Category Filter Section -->
+    <div class="category-filter">
+        
+        <div class="filters">
+            <select id="sort" onchange="sortProducts()">
+                <option value="default">Sort by</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating">Highest Rated</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Products List Section -->
+    <div class="products-container" id="products-container">
+        <!-- Sample Products (can be dynamically rendered with JS) -->
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3> Feather Polaroid</h3>
+            <button>More</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h3> Crystal Sapphire Phone Charm </h3>
+            <button>More</button>
+        </div>
+        <div class="product">
+            <img src="product12.jpg" alt="Product 4">
+            <h3> BMW M Sport </h3>
+            <button> More</button>
+        </div>
+        <div class="product">
+            <img src="product5.jpg" alt="Product 5">
+            <h3> Pink Butterfly Polaroid </h3>
+            <button>More</button>
+        </div>
+        <div class="product">
+            <img src="product11.jpg" alt="Product 6">
+            <h3> Tortoise Tote bag </h3>
+            <button>More</button>
+        </div>
+        
+        <div class="product">
+            <img src="product8.jpg" alt="Product 8">
+            <h3> BMW Polaroid </h3>
+            <button>More</button>
+        </div>
+        <div class="product">
+            <img src="product9.jpg" alt="Product 9">
+            <h3> Illustration Canvas Frames </h3>
+            <button>More</button>
+        </div>
+        <div class="product">
+            <img src="product10.jpg." alt="Product 10">
+            <h3> Milkyway Phone Charm </h3>
+            <button>More</button>
+        </div>
+        <div class="product">
+            <img src="product13.jpg" alt="Product 4">
+            <h3> Crystal Phone Charm</h3>
+            <button> More</button>
+        </div>
+        
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
